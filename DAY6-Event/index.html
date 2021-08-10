@@ -1,18 +1,43 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="bootstrap.css" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>DOM</title>
   </head>
   <body>
-    <h1 id="h1">EVENTS</h1>
-     <img  src="img/lamba_off.gif" class="resim" alt="off"></img>
-    <button id="btn-ac" type="button">AC</button>
-    <button id="btn-kapa" type="button">KAPA</button>
+    <main>
+      <div class="container text-center">
+        <h1>ORNEKLER</h1>
+        <IMG  src="lamba_off.gif" class="resim" alt="off"></IMG>
+       <div class="mt-4">
+        <button class="btn on btn-outline-warning">Ac</button>
+        <button class="btn off btn-outline-primary">Kapat</button>
+       </div>   
+       <div class="input-div">
+          <label for="textbox">Bir seyler yaziniz</label>
+          <input class="textbox" type="text"  />
+          <label for="checkbox">Küçük/Büyük</label>
+          <input class="checkbox" type="checkbox" />
+        </div>
+
+        <ul class="liste text-start">
+          <li>Javascript</li>
+           <li>Java</li>
+           <li>Phyton</li>
+           <li>C++</li>
+           <li>SQL</li>
+        </ul>
+
+        <div class="text-start mt-10 d-flex">
+          <input class="dil me-1" type="text" name="" id="">
+          <button class="btn ekle btn-success">Ekle</button>
+          <button class="btn sil btn-danger">Sil</button>
+        </div>
+      </div>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>
