@@ -1,0 +1,30 @@
+body {
+  font-family: fantasy;
+}
+#btn {
+  font-family: fantasy;
+  padding: 10px;
+  background-color: yellow;
+  color: black;
+  font-weight: 500;
+  width: 200px;
+  font-size: 18px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+#btn:hover {
+  background-color: red;
+}
+#container {
+  border: 2px solid black;
+  text-align: center;
+  width: 100vw;
+  min-height: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
