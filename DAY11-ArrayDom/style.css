@@ -1,0 +1,22 @@
+button {
+  padding: 8px;
+  width: 100px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  font-size: 14px;
+  margin-left: 10px;
+}
+input {
+  width: 350px;
+  padding: 10px;
+}
+h1 {
+  color: blue;
+}
+#liste-div {
+  color: blue;
+  font-size: 18px;
+}
